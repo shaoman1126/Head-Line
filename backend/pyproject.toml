@@ -1,0 +1,12 @@
+[project]
+name = "fastapi-first"
+version = "0.1.0"
+requires-python = ">=3.14"
+dependencies = [
+    "aiomysql>=0.3.2",
+    "datetime>=6.0",
+    "fastapi>=0.135.2",
+    "pydantic>=2.12.5",
+    "sqlalchemy[asyncio]>=2.0.48",
+    "uvicorn>=0.42.0",
+]
